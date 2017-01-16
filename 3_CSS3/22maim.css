@@ -1,0 +1,16 @@
+#box{
+	column-count:6;
+	column-rule:3px dashed blue;
+	column-gap:20px;
+	
+}
+
+
+#Copyright,h1{
+	column-span:all;
+}
+
+
+#Copyright  {
+			text-align:center;
+}

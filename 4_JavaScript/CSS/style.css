@@ -1,0 +1,21 @@
+
+body{
+	background-color:#ccc;
+	text-transform:capitalize;
+}
+
+
+form{
+	width:350px;
+	background-color:#fff;
+	font:normal solid Tahoma;
+	border-color:#bbb;
+	margin:20px;
+	padding:5px;
+	
+}
+
+
+fieldset{
+	margin:15px 5px;
+}

@@ -1,0 +1,18 @@
+#box{
+	border:1px solid green;
+	width:200px;
+	font:bold 40px tahoma;
+	margin:50px auto;
+	text-align:center;
+	border-radius:10px;
+	color:#fff;
+	text-shadow:red 0px 0px 20px;
+	
+	transition:rotate 2s 2s,width 5s;
+	
+	
+}
+#box:hover{
+	transform:rotate(30deg);
+	width:300px;
+}

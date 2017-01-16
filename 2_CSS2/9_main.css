@@ -1,0 +1,15 @@
+.class{	font:bold 80px comic sans ms;
+		color:blue;
+		position:absolute;
+		top:200px;
+		left:200px;
+		z-index:30;
+}
+
+.class2{ font:bold 80px comic sans ms;
+		 color:red;
+		 position:absolute;
+		 top:208px;
+		 left:203px;
+		 z-index:50;
+}

@@ -1,0 +1,41 @@
+/* 建立規則 */
+
+@keyframes slide{
+	
+	/* 0%{margin-left:0px;}
+	20%{margin-left:1000px;}
+	40%{margin-left:500px;}
+	60%{margin-left:700px;}
+	80%{margin-left:1000px;} */
+	
+	/* 0%{margin-left:0%;}
+	100%{margin-left:90%;} */
+	
+	
+	from{
+		margin-left:0%;
+	}
+	to{
+		margin-left:90%;
+		background-color:blue;
+	}
+	
+}
+
+
+
+
+#box{
+	
+	width:200px;
+	height:200px;
+	background-color:red;
+	
+	animation-name:slide;
+	animation-duration:2s;
+	animation-iteration-count:3;
+	animation-direction:alternate;
+	
+	
+	
+}

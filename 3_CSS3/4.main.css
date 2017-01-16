@@ -1,0 +1,23 @@
+#box{
+	border:1px solid red;
+	width:200px;
+	font:bold 20px tahoma;
+	margin:50px auto;
+	text-align:center;
+	
+	border-radius:10px 20px;
+}
+
+#circle{
+		border:1px solid green;
+		width:200px;
+		height:200px;
+		font:bold 20px tahoma;
+		margin:50px auto;
+		text-align:center;
+		vertical-align:middle;
+		
+		border-radius:50%;
+		line-height:150px;
+	
+}

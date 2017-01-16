@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body{
+	background-color:white;
+}
+
+#fieldset{
+	width:650px;
+	background-color:#ccc;
+}
+
+#output{
+	padding:5px;
+	text-align:left;
+	font-family:Poiret One;
+	font-weight:bold;
+	font-size:30px;
+}
+
+legend{
+	font-family:Poiret One;
+	font-weight:bold;
+	font-size:70px;
+	text-align:right;
+}
+
+select{
+	font-size:15px;
+	width:60px;
+	height:60px;
+}
+
+#hour,#minute ,#second{	
+	
+	font-family:Poiret One;
+	font-weight:bold;
+	font-size:140px;
+	background-color:white;
+	opacity:0.9;
+	width:160px;
+	border-radius:25px;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	padding:20px;
+	margin:5px;
+}
+
+#inPutHour,#inPutMin{
+	width:60px;
+	height:60px;
+	text-align:center;
+	vertical-align:middle;
+	
+}
+
+#subMit{
+	width:75px;
+	height:65px;
+}
+
+#settime{
+	text-align:right;
+}

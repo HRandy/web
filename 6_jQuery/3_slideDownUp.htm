@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<title>slideDownUp</title>
+		
+		<script src="js/jquery-3.1.1.min.js"></script>
+		
+		
+		<script>
+		
+		$(document).ready(function(){
+		
+			$('#content').click(function(){
+				$('#image').slideDown(3000).delay().slideUp();
+			});
+		});
+		
+		</script>
+		
+	</head>
+	<body>
+	
+	
+		<div id="content">
+		help!
+		</div>
+		<div id="image">
+			<img src="../img/images/pig.jpg">
+				
+		</div>
+	
+	
+	</body>
+</html>

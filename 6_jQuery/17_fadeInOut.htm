@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<title>jQerry</title>
+		<script src="js/jquery-3.1.1.min.js"></script>
+				
+		<script>
+		
+			$(document).ready(function(){
+				$('.description').mousemove(function(e){
+									
+					$('#inButton').click(function()){
+						$('#limes').fadeIn(1000);
+					
+					})
+					
+					$('#outButton').click(function(){
+						
+						$('limes').fadeOut(2000);
+					});
+				});	
+				
+			});
+		
+		</script>
+	</head>
+	
+	<body>
+		<p>
+			<button id = 'inButton'>fadeIn</button>
+			<button id = 'outButton'>fadeOut</button>
+		</p>
+		<p>
+			<img src='../img/images/limes.jpg' class='description'>
+		</p>
+		<div id='hoverDiv'></div>
+			
+	</body>
+</html>

@@ -1,0 +1,14 @@
+#box{
+	border:1px solid green;
+	width:200px;
+	font:bold 40px tahoma;
+	margin:50px auto;
+	text-align:center;
+	border-radius:10px;
+	
+	/* background:-webkit-linear-gradient(left, yellow 30%,green 50%,red 60%); */
+	/* background-image:-webkit-repeating-linear-gradient(left,red orange yellow green blue) */
+	/* background-image:-webkit-repeating-linear-gradient(left,red,orange,yellow,green,blue) */
+	/* background-image:-webkit-radial-gradient(50px 100px,ellipse closest-corner,yellow 10%,blue 20%) */
+	background-image:-webkit-repeating-radial-gradient(50px 100px,ellipse closest-corner,yellow 10%,blue 20%)
+}

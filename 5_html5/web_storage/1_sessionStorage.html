@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+		<script>
+			function showMessage(){
+			if(sessionStorage['name']==null){
+				var youName = prompt('What your name?');
+				sessionStorage['name'] = youName;
+			}else{
+				alert(sessionStorage['name'])
+			}
+			
+			}
+		</script>
+		<title>Session Storage</title>
+	</head>
+	<body>
+		<button onclick="showMessage()" >Session Storage</button>
+	
+	
+	</body>
+</html>

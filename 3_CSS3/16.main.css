@@ -1,0 +1,26 @@
+@font-face{
+			font-family:facebook;
+			url(font/facebook-letter-faces.ttf);
+}
+
+
+#box{
+	border:1px solid #ccc;
+	width:250px;
+	font:bold 40px facebook tahoma;
+	margin:50px auto;
+	text-align:center;
+	border-radius:10px;
+	color:#3b5998;
+	
+	
+	transition:transform 2s ,width 2s 2s,background-color 4s;
+	
+	
+}
+#box:hover{
+	transform:rotate(360deg);
+	width:450px;
+	color:#fff;
+	background-color:#3b5998;
+}

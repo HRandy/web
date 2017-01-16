@@ -1,0 +1,56 @@
+/* 3_slideDownUp.html */
+#content{
+	border:3px dotted maroon;
+	width:270px;
+	font:bold 20px Tahoma;
+	padding:10px;
+	text-transform:capitalize;
+	text-align:center;
+	margin-bottom:1px;
+}
+#image{
+	border:3px dotted maroon;
+	width:270px;
+	padding:10px;
+	text-align:center;
+	display:none;
+}
+
+/* 7_addClass.html */
+.highlight{
+	background:yellow;
+}
+
+
+/* 14_bind.html */
+.bold{
+	font:bold 20px Camic Sans MS;
+	color:steelblue;
+}
+
+/* 15_topMessage.html */
+#topMessage{
+	background:#bbb;
+	margin:0px auto;
+	width:600px;
+	font:normal 22px Tahoma;
+	text-align:center;
+	padding:10px;
+	color:#fff;
+	
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

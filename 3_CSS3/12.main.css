@@ -1,0 +1,20 @@
+#box{
+	border:1px solid green;
+	width:200px;
+	font:bold 40px tahoma;
+	margin:50px auto;
+	text-align:center;
+	border-radius:10px;
+	color:#fff;
+	text-shadow:red 0px 0px 20px;
+	
+	
+	
+	transform:translate(50px,50px) rotate(30deg) scale(1,0.8) skew(20deg);
+	/* 
+	transform:translate(50px,50px);
+	transform:rotate(30deg);
+	transform:scale(1,0.8);
+	transform:skew(20deg);
+	*/
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<title>jQuery</title>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				//jQuery code here...
+				/*$('input[type="submit"]').click(function(){
+					alert('hi~');
+				});*/
+				
+				/*$(':submit').click(function(){
+					alert('hi~');
+				});*/
+				
+				$(':submit').click(function(){
+					$(this).attr('value','Please wait...');
+				});
+				
+				$('#myLink').click(function(){
+					$(this).attr('href','http://maps.google.com');
+				});
+				
+			});
+		</script>
+	</head>
+	<body>
+		<input type="submit" value="Submit">
+		<input type="submit" value="Submit">
+		<p>
+			<a href="http://www.google.com" id="myLink">Google</a>
+		</p>
+	</body>
+</html>

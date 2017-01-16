@@ -1,0 +1,23 @@
+#skin{
+	border:1px solid red;
+	width:700px;
+	margin:100px auto;
+	text-align:center;
+	padding-top:8px;
+}
+nav{
+	margin-top:8px;
+}
+#buttons{
+	float:left;
+}
+
+#defaultBar{
+	border:1px solid red;
+	width:540px;
+	height:5px;
+	float:left;
+}
+#progressBar{
+	border:1px solid red;
+}

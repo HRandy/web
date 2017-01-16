@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+		<script>
+			function showMessage(){
+			if(localStorage['name']==null){
+				var youName = prompt('What your name?');
+				localStorage['name'] = youName;
+			}else{
+				alert(localStorage['name'])
+			}
+			
+			}
+		</script>
+		<title>local Storage</title>
+	</head>
+	<body>
+		<button onclick="showMessage()" >local Storage</button>
+	
+	
+	</body>
+</html>

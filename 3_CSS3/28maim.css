@@ -1,0 +1,39 @@
+/* 建立規則 */
+
+@keyframes slide{
+	
+		
+	from{
+		margin-left:0%;
+	}
+	to{
+		margin-left:90%;
+		background-color:blue;
+	}
+	
+}
+
+
+#image{
+	width:300px;
+	
+	animation-name:slide;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	
+	
+}
+
+button{
+	
+	
+	font-size:xx-large;
+	text-transform:capitalize;
+	
+	
+}
+
+p{
+	text-align:center;
+}
